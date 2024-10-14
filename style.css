@@ -1,31 +1,80 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 @font-face {
     font-family: 'Cocogoose';
     src: url('fonts/Cocogoose-Compressed-Trial-UltraLight/Cocogoose-Compressed-Ultralight-trial.ttf') format('opentype');
 }
 
-body {
+:root {
+    --fonte-fcaa: 'Cocogoose';
+    --fonte-info: 'Open Sans';
+}
+
+* {
     margin: 0px;
     padding: 0px;
-    background-color: bisque;
+}
+
+body {
+    background-color: rgb(123, 167, 233);
 }
 
 header {
     display: flex;
+    padding: 30px 20px;
 }
 
 header h1 {
-    padding: 0px 10px;
+    position: absolute;
+    top: 35px;
+    left: 97px;
+    padding-left: 10px;
+    padding-right: 30px;
     font-family: 'Cocogoose';
     font-size: 25px;
 }
 
 .img-box {
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
 }
 
-.img-box img {
+#foto-3x4 {
+    padding-right: 20px;
+}
+
+.info-box {
     padding: 20px;
+    font-family: var(--fonte-info);
+}
+
+h2 {
+    padding: 5px;
+    /* letter-spacing: 1px; */
+}
+
+ul {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+ul strong {
+    padding: 0px 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ul p {
+    width:fit-content;
+    padding: 0px 3px;
+    background-color: black;
+    border-radius: 5px 5px 0px 0px;
+    color: rgb(123, 167, 233);
+}
+
+li {
+    padding: 5px 0px;
 }
