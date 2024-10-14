@@ -26,14 +26,19 @@ header {
     padding: 30px 20px;
 }
 
+header img {
+    filter: drop-shadow(1px 1px 0.3px black);
+}
+
 header h1 {
     position: absolute;
     top: 35px;
     left: 97px;
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 10px;
     font-family: 'Cocogoose';
     font-size: 25px;
+    text-shadow: 1px 1px 2px white;
 }
 
 .img-box {
@@ -52,7 +57,6 @@ header h1 {
 
 h2 {
     padding: 5px;
-    /* letter-spacing: 1px; */
 }
 
 ul {
@@ -60,21 +64,24 @@ ul {
     list-style: none;
 }
 
-ul strong {
-    padding: 0px 5px;
-    letter-spacing: 2px;
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
+li {
+    padding: 5px 0px;
 }
-ul p {
+
+.item-ask {
     width:fit-content;
     padding: 0px 3px;
     background-color: black;
     border-radius: 5px 5px 0px 0px;
-    color: rgb(123, 167, 233);
+    color: white;
 }
 
-li {
-    padding: 5px 0px;
+.item-answer {
+    background-color: white;
+    font-weight: bold;
+    padding: 0px 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 0px 5px 5px 5px;
 }
