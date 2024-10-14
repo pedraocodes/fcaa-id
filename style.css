@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('fonts/Cocogoose-Compressed-Trial-UltraLight/Cocogoose-Compressed-Ultralight-trial.ttf') format('opentype');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+
+header {
+    display: flex;
+}
+
+header h1 {
+    padding: 0px 10px;
+    font-family: 'Cocogoose';
+    font-size: 25px;
+}
+
+.img-box {
+    justify-content: space-around;
+    display: flex;
+}
+
+.img-box img {
+    padding: 20px;
+}
