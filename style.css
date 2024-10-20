@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: rgb(123, 167, 233);
+    background-image: linear-gradient(to top, #7BA7E9, #2E73DC, #1B4F9D, #091a34);
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 }
 
 header img {
-    filter: drop-shadow(1px 1px 0.3px black);
+    filter: drop-shadow(1px 1px 0.3px white);
 }
 
 header h1 {
@@ -37,8 +37,9 @@ header h1 {
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Cocogoose';
+    color: white;
     font-size: 25px;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 1px 1px 2px black;
 }
 
 .img-box {
@@ -57,6 +58,8 @@ header h1 {
 
 h2 {
     padding: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 ul {
@@ -69,11 +72,13 @@ li {
 }
 
 .item-ask {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
     width:fit-content;
     padding: 0px 3px;
-    background-color: black;
-    border-radius: 5px 5px 0px 0px;
-    color: white;
+    /* background-color: black; */
+    /* border-radius: 5px 5px 0px 0px; */
 }
 
 .item-answer {
@@ -82,6 +87,6 @@ li {
     padding: 0px 5px;
     letter-spacing: 1px;
     font-size: 20px;
-    border: 2px solid black;
-    border-radius: 0px 5px 5px 5px;
+    /* border: 2px solid black; */
+    /* border-radius: 0px 5px 5px 5px; */
 }
